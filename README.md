@@ -19,7 +19,7 @@ Make sure you have Python 3.6 or later installed.
 ```
 .
 ├── data/
-│   ├── data_loader.py
+│   ├── dataloader.py
 │   └── __init__.py
 ├── models/
 │   ├── resnet_model.py
