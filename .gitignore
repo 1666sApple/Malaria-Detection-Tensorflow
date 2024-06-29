@@ -1,0 +1,27 @@
+# Ignore saved model directory
+saved_model/
+
+# Ignore data directory
+data/
+
+# Ignore specific notebook files
+Malaria-Detection.ipynb
+malaria-resnet-tensorflow.ipynb
+
+# Ignore specific Python file
+malaria-resnet-tensorflow.py
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
