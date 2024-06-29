@@ -15,6 +15,7 @@ pip install -r requirements.txt
 Make sure you have Python 3.6 or later installed.
 
 ## Project Structure
+```
 `data/`: Directory containing data loading and preprocessing scripts.
 `models/`: Directory containing the ResNet model architecture script.
 `utils/`: Directory containing utility scripts for image processing and training utilities.
@@ -23,6 +24,7 @@ Make sure you have Python 3.6 or later installed.
 `evaluate.py`: Script for evaluating the trained model.
 `.gitignore`: Ignores specific files.
 `requirements.txt`: List of dependencies for the project.
+```
 
 ## Training
 To train the model, run:
