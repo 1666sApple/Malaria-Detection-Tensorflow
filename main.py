@@ -3,7 +3,7 @@
 import os
 import tensorflow as tf
 from data.dataloader import load_data, create_datasets
-from models.resnet_model.py import create_resnet_model
+from models.resnet_model import create_resnet_model
 from utils.image_processing import plot_images
 from utils.train_utils import compile_and_train, plot_training_history
 
@@ -21,7 +21,7 @@ def main():
         print("No GPU available. Using CPU.")
     
     # Path of the dataset
-    data_dir = "/kaggle/input/cell-images-for-detecting-malaria/cell_images/"
+    data_dir = "dataset/"
     categories = ['Parasitized', 'Uninfected']
     
     # Load data
