@@ -15,6 +15,28 @@ pip install -r requirements.txt
 Make sure you have Python 3.6 or later installed.
 
 ## Project Structure
+
+```
+.
+├── data/
+│   ├── data_loader.py
+│   └── __init__.py
+├── models/
+│   ├── resnet_model.py
+│   └── __init__.py
+├── utils/
+│   ├── image_processing.py
+│   ├── train_utils.py
+│   └── __init__.py
+├── main.py
+├── train.py
+├── evaluate.py
+├── .gitignore
+├── requirements.txt
+└── README.md
+
+```
+#### Folder details:
 ```
 `data/`: Directory containing data loading and preprocessing scripts.
 `models/`: Directory containing the ResNet model architecture script.
