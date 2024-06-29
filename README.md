@@ -18,6 +18,9 @@ Make sure you have Python 3.6 or later installed.
 
 ```
 .
+├── dataset/
+│   ├── Parasitized
+│   ├── Uninfected
 ├── data/
 │   ├── dataloader.py
 │   └── __init__.py
