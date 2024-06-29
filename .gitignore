@@ -1,22 +1,22 @@
 # Ignore saved model directory
-saved_model/
+/saved_model/
 
 # Ignore data directory
-data/
+/data/
 
 # Ignore specific notebook files
-Malaria-Detection.ipynb
-malaria-resnet-tensorflow.ipynb
+/Malaria-Detection.ipynb
+/malaria-resnet-tensorflow.ipynb
 
 # Ignore specific Python file
-malaria-resnet-tensorflow.py
+/malaria-resnet-tensorflow.py
 
 # Python cache files
 __pycache__/
 *.py[cod]
 
 # Virtual environment
-venv/
+/.venv/
 
 # IDE specific files
 .vscode/
